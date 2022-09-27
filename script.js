@@ -10,7 +10,7 @@ let photosArray = [];
 // Unsplash API
 let initialPhotoCount = 5;
 let isInitialLoad = true;
-const apiKey = '5gHaFl3qibnwJrsyovCA2zSH4OlFf6REFhVQJtosbYE';
+const apiKey = <Your API key here>;
 let apiURL = `https://api.unsplash.com/photos/random/?client_id=${apiKey}&count=${initialPhotoCount}`;
 
 //Function to determine if it is initial load, if not, it should be updated with a greater value
